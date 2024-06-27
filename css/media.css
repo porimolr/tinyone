@@ -1,0 +1,115 @@
+
+/* extra small device */
+ @media (max-width:575.98px){ 
+    .row.hed {
+        margin: 0;
+    }
+    .menu_item ul li {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+ 
+    .menu_item ul {
+        padding: 32px 0px;
+    }
+    .menu_item ul li a {
+        font-size: 18px;
+    }
+    .icon_ist ul li i {
+        font-size: 28px;
+    }
+    .icon {
+        position: absolute;
+        left: 46%;
+    }
+    .f_text {
+        text-align: center;
+        margin-top: 46px;
+    }
+    .f_text p {
+        width: 70%;
+        margin: auto;
+    }
+
+    .fo_text1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .fo_text.Responsive {
+        margin-top: 28px;
+    }
+    .button {
+        padding: 10px 119px;
+        margin-top: -40px;
+    }
+    .fo_text {
+        text-align: center;
+    }   
+}
+
+/* small device */
+@media (min-width:576px) and (max-width:767.98px){
+    .menu_item ul li {
+        display: flex;
+        justify-content: center;
+    }
+    .menu_item ul {
+        padding: 24px 0px;
+    }
+    .icon_ist ul li i {
+        font-size: 28px;
+    }
+    .icon i {
+        margin: 0px 244px;
+    }
+    .f_text {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .f_text h4 {
+        margin: 0 124px 0 0;
+    }
+    .fo_text1 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .fo_text {
+        margin: 0 100px;
+    }
+    .fo_text.Responsive {
+        margin-top: 28px;
+    }
+    .button {
+        padding: 10px 230px;
+        margin-top: -40px;
+    }
+    
+}
+
+/* medium device */
+@media (min-width:768px) and (max-width:991.98px){
+    .menu_item ul li {
+        display: flex;
+        justify-content: center;
+    }
+    .fo_text1 {
+        text-align: center;
+        margin-bottom: 28px;
+    }
+    .fo_text {
+        margin: 0 80px;
+    }
+    .icon_list ul {
+        gap: 18px;
+    }  
+} 
+
+/* large device */
+@media (min-width:992px) and (max-width:1199.98px){   
+}
+/* extra large device */
+@media (min-width:1200px) and (max-width:1399.98px){
+    
+}
